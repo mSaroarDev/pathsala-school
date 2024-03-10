@@ -1,6 +1,6 @@
 const Section__Hero = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full">
       <main className="px-5">
         <div className="_hero w-full relative h-[630px] flex items-center p-10">
           <div className="hind-siliguri-regular text-white z-40">
