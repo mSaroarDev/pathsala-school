@@ -1,10 +1,13 @@
 import Appnav from "./components/Appnav";
+import Section_ScrollingNotice from "./components/Section_ScrollingNotice";
+import Section__Hero from "./components/Section__Hero";
 
 function App() {
   return (
     <>
       <Appnav />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Section__Hero />
+      <Section_ScrollingNotice />
     </>
   );
 }
