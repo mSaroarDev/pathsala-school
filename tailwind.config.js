@@ -5,7 +5,11 @@ export default {
     themes: ["light"],
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        tiroBangla: ["tiro-bangla-regular", "sans-serif"],
+      },
+    },
   },
   plugins: [require("daisyui")],
 };

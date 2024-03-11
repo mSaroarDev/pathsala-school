@@ -2,7 +2,7 @@ const Section_ScrollingNotice = () => {
   return (
     <>
       <div>
-        <main className="px-5 hind-siliguri-regular">
+        <main className="px-5">
           <div className="bg-white py-3">
             <marquee behavior="" direction="">
               পাঠশালা এডুকেশন ম্যানেজমেন্ট সিস্টেমে আপনাকে স্বাগতম। একমাত্র

@@ -1,10 +1,10 @@
 const Section_AboutUs = () => {
   return (
     <>
-      <main className="col-span-12">
-        <div className="px-0 lg:px-5">
+      <div className="col-span-12">
+        <div className="px-0">
           <div className="bg-white p-7 rounded-lg shadow-md">
-            <div className="w-full grid grid-cols-12 hind-siliguri-regular gap-x-5">
+            <div className="w-full grid grid-cols-12 gap-x-5">
               <div className="col-span-12 text-[19px] font-semibold">
                 আমাদের সম্পর্কে
               </div>
@@ -36,7 +36,7 @@ const Section_AboutUs = () => {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </>
   );
 };

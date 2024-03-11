@@ -1,6 +1,6 @@
 const Appnav = () => {
   return (
-    <div className="fixed top-0 z-50 w-full bg-base-100 hind-siliguri-regular">
+    <div className="fixed top-0 z-50 w-full bg-base-100">
       <main className="px-3">
         <div className="navbar">
           <div className="navbar-start">
