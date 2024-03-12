@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         tiroBangla: ["tiro-bangla-regular", "sans-serif"],
       },
+      colors: {
+        brand: "#ff5800",
+      },
     },
   },
   plugins: [require("daisyui")],

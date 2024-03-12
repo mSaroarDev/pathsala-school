@@ -2,13 +2,13 @@ const Section__MujibCornerPicture = () => {
   return (
     <div className="col-span-12 lg:col-span-6">
       <div className="px-0">
-        <div className="bg-white p-7 rounded-lg shadow-md">
+        <div className="bg-white rounded-lg shadow-md">
           <div className="w-full grid grid-cols-12 gap-x-5">
-            <div className="col-span-12 text-[19px] font-semibold">
+            <div className="col-span-12 text-[19px] font-semibold p-3 border-b-[1px] border-gray-200">
               মুজিব কর্নার
             </div>
 
-            <div className="col-span-12 mt-3">
+            <div className="col-span-12 p-5">
               <img
                 src="/mujib.jpg"
                 alt="বঙ্গবন্ধু শেখ মুজিবুর রহমান"
