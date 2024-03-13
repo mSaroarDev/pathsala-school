@@ -13,7 +13,7 @@ const Section__Hero = () => {
                   পাঠশালা এডুকেশন ম্যানেজমেন্ট
                 </h1>
                 <p className="text-[18px] lg:text-[20px] font-light">
-                  দারুশা পবা রাজশাহী।
+                  দারুশা, পবা, রাজশাহী।
                 </p>
               </div>
             </div>
