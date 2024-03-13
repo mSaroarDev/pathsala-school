@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Appnav = () => {
   return (
     <div className="fixed top-0 z-50 w-full bg-base-100">
@@ -30,28 +32,36 @@ const Appnav = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>হোম</a>
+                  <Link to="/">হোম</Link>
                 </li>
                 <li>
-                  <a>সম্পর্কে</a>
+                  <Link to="/about-us">সম্পর্কে</Link>
                 </li>
                 <li>
                   <a>অ্যাডমিনিস্ট্রেশন</a>
                   <ul className="p-2">
                     <li>
-                      <a>প্রধান শিক্ষক</a>
+                      <Link to="/administration/head-teacher">
+                        প্রধান শিক্ষক
+                      </Link>
                     </li>
                     <li>
-                      <a>প্রাক্তন প্রধান শিক্ষক</a>
+                      <Link to="/administration/old-head-teachers">
+                        প্রাক্তন প্রধান শিক্ষক
+                      </Link>
                     </li>
                     <li>
-                      <a>সহকারী শিক্ষকগন</a>
+                      <Link to="/administration/teachers">সহকারী শিক্ষকগন</Link>
                     </li>
                     <li>
-                      <a>ম্যনেজিং কমিটি</a>
+                      <Link to="/administration/managing-committee">
+                        ম্যনেজিং কমিটি
+                      </Link>
                     </li>
                     <li>
-                      <a>অফিস স্টাফগন</a>
+                      <Link to="/administration/office-staffs">
+                        অফিস স্টাফগন
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -59,21 +69,21 @@ const Appnav = () => {
                   <a>নোটিশ</a>
                   <ul className="p-2">
                     <li>
-                      <a>নোটিশ</a>
+                      <Link to="/notice/notices">নোটিশ</Link>
                     </li>
                     <li>
-                      <a>ইভেন্ট সমূহ</a>
+                      <Link to="/notice/events">ইভেন্ট সমূহ</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>অ্যাডমিশন</a>
+                  <Link to="/admission">অ্যাডমিশন</Link>
                 </li>
                 <li>
-                  <a>ফলাফল</a>
+                  <Link to="/results">ফলাফল</Link>
                 </li>
                 <li>
-                  <a>যোগাযোগ</a>
+                  <Link to="/contact">যোগাযোগ</Link>
                 </li>
               </ul>
             </div>
@@ -84,29 +94,37 @@ const Appnav = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-[15px] font-semibold">
               <li>
-                <a>হোম</a>
+                <Link to="/">হোম</Link>
               </li>
               <li>
-                <a>সম্পর্কে</a>
+                <Link to="/about-us">সম্পর্কে</Link>
               </li>
               <li>
                 <details>
                   <summary>অ্যাডমিনিস্ট্রেশন</summary>
                   <ul className="p-2 w-[200px]">
                     <li>
-                      <a>প্রধান শিক্ষক</a>
+                      <Link to="/administration/head-teacher">
+                        প্রধান শিক্ষক
+                      </Link>
                     </li>
                     <li>
-                      <a>প্রাক্তন প্রধান শিক্ষক</a>
+                      <Link to="/administration/old-head-teachers">
+                        প্রাক্তন প্রধান শিক্ষক
+                      </Link>
                     </li>
                     <li>
-                      <a>সহকারী শিক্ষকগন</a>
+                      <Link to="/administration/teachers">সহকারী শিক্ষকগন</Link>
                     </li>
                     <li>
-                      <a>ম্যনেজিং কমিটি</a>
+                      <Link to="/administration/managing-committee">
+                        ম্যনেজিং কমিটি
+                      </Link>
                     </li>
                     <li>
-                      <a>অফিস স্টাফগন</a>
+                      <Link to="/administration/office-staffs">
+                        অফিস স্টাফগন
+                      </Link>
                     </li>
                   </ul>
                 </details>
@@ -116,22 +134,22 @@ const Appnav = () => {
                   <summary>নোটিশ</summary>
                   <ul className="p-2 w-[200px]">
                     <li>
-                      <a>নোটিশ</a>
+                      <Link to="/notice/notices">নোটিশ</Link>
                     </li>
                     <li>
-                      <a>ইভেন্ট সমূহ</a>
+                      <Link to="/notice/events">ইভেন্ট সমূহ</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>অ্যাডমিশন</a>
+                <Link to="/admission">অ্যাডমিশন</Link>
               </li>
               <li>
-                <a>ফলাফল</a>
+                <Link to="/results">ফলাফল</Link>
               </li>
               <li>
-                <a>যোগাযোগ</a>
+                <Link to="/contact">যোগাযোগ</Link>
               </li>
             </ul>
           </div>
