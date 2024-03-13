@@ -5,6 +5,7 @@ import Section_ImportantLinks from "./components/SectionImportantLinks";
 import Section_AboutUs from "./components/Section_AboutUs";
 import Section_Achievement from "./components/Section_Achievement";
 import Section_Events from "./components/Section_Events";
+import Section_Footer from "./components/Section_Footer";
 import Section_HeadTeacher from "./components/Section_HeadTeacher";
 import Section_Notice from "./components/Section_Notice";
 import Section_OfficeStaffs from "./components/Section_OfficeStaffs";
@@ -34,6 +35,7 @@ function App() {
         <Section_OfficeStaffs />
         <Section_ImportantLinks />
       </div>
+      <Section_Footer />
     </>
   );
 }
