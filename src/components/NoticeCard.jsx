@@ -2,7 +2,7 @@ import { CalendarDays } from "lucide-react";
 
 const NoticeCard = () => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3 ">
       <div className="pt-4 pb-4 pl-4">
         <div className="h-[65px] w-[65px] rounded-lg border-[1px] border-[#e63757] overflow-hidden">
           <div className="bg-[#e63757] text-white flex items-center justify-center text-[13px] p-[2px] poppins-bold font-bold">

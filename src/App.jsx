@@ -3,10 +3,12 @@ import Section_DistrictEductionMinister from "./components/DistrictEducationMini
 import Section__MujibCornerPicture from "./components/MujibPicture";
 import Section_AboutUs from "./components/Section_AboutUs";
 import Section_Achievement from "./components/Section_Achievement";
+import Section_Events from "./components/Section_Events";
 import Section_HeadTeacher from "./components/Section_HeadTeacher";
 import Section_Notice from "./components/Section_Notice";
 import Section_President from "./components/Section_President";
 import Section_ScrollingNotice from "./components/Section_ScrollingNotice";
+import Section_Teachers from "./components/Section_Teachers";
 import Section__Hero from "./components/Section__Hero";
 import Section__NationalAunthem from "./components/Section__NationalAunthem";
 
@@ -25,6 +27,8 @@ function App() {
         <Section_HeadTeacher />
         <Section_Achievement />
         <Section_Notice />
+        <Section_Events />
+        <Section_Teachers />
       </div>
     </>
   );

@@ -6,7 +6,7 @@ const Section__NationalAunthem = () => {
       <div className="px-0">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="w-full grid grid-cols-12 gap-x-5">
-            <div className="col-span-12 text-[19px] font-semibold p-3 border-b-[1px] border-gray-200">
+            <div className="col-span-12 text-[19px] font-semibold py-3 px-5 border-b-[1px] border-gray-200">
               জাতীয় সংগীত
             </div>
 

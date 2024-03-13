@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         brand: "#ff5800",
+        bgGray: "#F9FAFD",
       },
     },
   },
