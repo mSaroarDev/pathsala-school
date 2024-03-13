@@ -6,7 +6,7 @@ const Section_Achievement = () => {
           <div className="bg-white p-7 rounded-lg shadow-md">
             <div className="w-full grid grid-cols-12 gap-x-5">
               <div className="col-span-12 text-[19px] flex items-center justify-around">
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center justify-center">
                   <h2 className="font-bold text-[60px]">100</h2>
                   <p>মোট শিক্ষার্থী</p>
                 </div>

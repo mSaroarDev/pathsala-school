@@ -159,10 +159,16 @@
   font-style: italic;
 }
 
+/* solaiman lipi */
+@font-face {
+  src: url("/fonts/SolaimanLipi.ttf");
+  font-family: "Solaiman";
+}
+
 /* global css */
 body {
   @apply bg-[#ECF1F8];
-  font-family: "Tiro Bangla", "poppins-regular";
+  font-family: "Solaiman", "poppins-regular";
   font-weight: 400;
   font-style: normal;
 }
