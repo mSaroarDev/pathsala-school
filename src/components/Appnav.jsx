@@ -136,7 +136,10 @@ const Appnav = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="bg-primary text-white px-5 py-2 rounded-md">
+            <a
+              href="https://pathsala-client.vercel.app/client/dashboard"
+              className="bg-primary text-white px-5 py-2 rounded-md"
+            >
               অফিস লগিন
             </a>
           </div>
