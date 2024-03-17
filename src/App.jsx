@@ -7,6 +7,8 @@ import ExHeadTeacher from "./pages/ExHeadTeacher";
 import Teachers from "./pages/Teachers";
 import ManagingCommittee from "./pages/ManagingCommittee";
 import OfficeStaffPage from "./pages/OfficeStaff";
+import NoticesPage from "./pages/Notices";
+import EventsPage from "./pages/Events";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
             />
 
             <Route path="/administration/teachers" element={<Teachers />} />
+            <Route path="/notice/notices" element={<NoticesPage />} />
+            <Route path="/notice/events" element={<EventsPage />} />
           </Routes>
         </Layout>
       </BrowserRouter>
