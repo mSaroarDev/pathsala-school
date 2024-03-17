@@ -9,6 +9,7 @@ import ManagingCommittee from "./pages/ManagingCommittee";
 import OfficeStaffPage from "./pages/OfficeStaff";
 import NoticesPage from "./pages/Notices";
 import EventsPage from "./pages/Events";
+import AdmissionPage from "./pages/Admission";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/administration/teachers" element={<Teachers />} />
             <Route path="/notice/notices" element={<NoticesPage />} />
             <Route path="/notice/events" element={<EventsPage />} />
+            <Route path="/admission" element={<AdmissionPage />} />
           </Routes>
         </Layout>
       </BrowserRouter>
